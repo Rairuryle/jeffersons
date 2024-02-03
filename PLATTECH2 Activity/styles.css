@@ -1,0 +1,210 @@
+:root {
+  --main-color: #0c2d57;
+  --secondary-color: #637a9f;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lexend", "Lexend Peta", sans-serif;
+}
+
+body {
+  margin: 2rem;
+}
+
+.bg-starry,
+.bg-second-section {
+  width: 100%;
+}
+
+.rounded-circle {
+  width: 4.3rem;
+  height: 4rem;
+}
+
+.links-container {
+  width: 35rem;
+  margin-left: 1.5rem;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.navbar-container {
+  padding-top: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+li {
+  transition: background-color 1s, color 1s; /* Optional: Add a smooth transition effect */
+}
+
+.nav-link:hover {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.nav-link {
+  border-radius: 30px;
+}
+
+.navbar-nav {
+  padding: 0 2rem;
+}
+
+.nav-link,
+.navbar-text {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+.navbar-text {
+  font-size: 2rem;
+}
+
+.browse-button {
+  margin-left: 8rem;
+}
+
+.right-content-container-two {
+  margin-top: -5rem;
+  margin-right: -2.3rem;
+}
+
+.welcome-texts {
+  width: 32%;
+  text-align: center;
+}
+
+h1 {
+  color: var(--main-color);
+  font-size: 3.7rem;
+  text-shadow: 2px 2px 3px black;
+}
+
+h1,
+h2,
+.welcome-sub {
+  font-weight: bold;
+}
+
+h2,
+.welcome-sub {
+  color: black;
+}
+
+.welcome-sub {
+  font-size: 0.8rem;
+  font-family: "Lexend Peta";
+}
+
+.links {
+  margin: 2rem;
+  z-index: 1;
+}
+
+.group-pic-container {
+  width: 33%;
+}
+
+.group-pic-container img {
+  border-radius: 30px;
+}
+
+.bons-container {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.bons-name {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.jefferson-text {
+  color: var(--main-color);
+}
+
+.father-text {
+  background-color: white;
+  border-radius: 50px;
+  height: 60%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.flavor-text {
+  font-family: "Lexend Peta";
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.team-member {
+  background-color: white;
+  width: 52%;
+  margin-left: 1rem;
+}
+
+.team-member,
+.member-img img {
+  border-radius: 50px;
+}
+
+.name-text {
+  font-weight: bold;
+  color: #ff9b50;
+  font-size: 1.8rem;
+}
+
+.last-name-text {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 2.7rem;
+}
+
+.job-position {
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+
+.plus-sign-jhas {
+  padding-left: 3.5rem;
+}
+
+.greetings-container {
+  text-align: end;
+  margin-bottom: -5rem;
+  font-weight: bold;
+}
+
+.meet-text {
+  font-size: 3.4rem;
+  margin-bottom: -4rem;
+}
+
+.team-text {
+  font-size: 10rem;
+  color: var(--main-color);
+  margin-bottom: -2.8rem;
+}
+
+.the-jeffersons-text {
+  font-size: 2.2rem;
+  margin-bottom: -0.5rem;
+}
+
+.date-text {
+  font-size: 1.3rem;
+  font-family: "Lexend Peta";
+}
+
+.meet-text,
+.the-jeffersons-text,
+.date-text {
+  color: var(--secondary-color);
+}
